@@ -1,0 +1,112 @@
+.navbar-unab {
+  background: var(--color-primario);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-unab__barra {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.navbar-unab__marca {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.navbar-unab__marca:hover {
+  color: #fff;
+  opacity: 0.92;
+}
+
+/* el logo tiene letras azules, por eso lleva fondo blanco */
+.navbar-unab__logo {
+  height: 42px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 4px 8px;
+}
+
+.navbar-unab__toggle {
+  display: none;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+  border-radius: 8px;
+  padding: 0.25rem 0.6rem;
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.navbar-unab__menu {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.navbar-unab__saludo {
+  color: var(--color-acento-claro);
+  font-size: 0.95rem;
+}
+
+.navbar-unab__enlaces {
+  display: flex;
+  gap: 1.25rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-unab__enlace {
+  color: rgba(255, 255, 255, 0.88);
+  text-decoration: none;
+  font-weight: 500;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.navbar-unab__enlace:hover,
+.navbar-unab__enlace.activo {
+  color: #fff;
+  border-bottom-color: var(--color-acento);
+}
+
+@media (max-width: 767.98px) {
+  .navbar-unab__toggle {
+    display: block;
+  }
+
+  .navbar-unab__menu {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 0.5rem 0;
+  }
+
+  .navbar-unab__menu.abierto {
+    display: flex;
+  }
+
+  .navbar-unab__enlaces {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+}
+
+@media (max-width: 399.98px) {
+  .navbar-unab__nombre {
+    display: none;
+  }
+}
