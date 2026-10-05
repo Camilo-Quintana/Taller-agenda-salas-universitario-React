@@ -1,0 +1,10 @@
+[
+  { "espacioId": 1, "dia": 0, "bloque": "10:00-11:00", "nombreSolicitante": "Camila Rojas", "correo": "c.rojas@uandresbello.edu", "rut": "20.123.456-5" },
+  { "espacioId": 22, "dia": 1, "bloque": "12:00-13:00", "nombreSolicitante": "Camila Rojas", "correo": "c.rojas@uandresbello.edu", "rut": "20.123.456-5" },
+  { "espacioId": 11, "dia": 0, "bloque": "15:00-16:00", "nombreSolicitante": "Diego Muñoz", "correo": "d.munoz@uandresbello.edu", "rut": "19.876.543-0" },
+  { "espacioId": 13, "dia": 1, "bloque": "09:00-10:00", "nombreSolicitante": "Diego Muñoz", "correo": "d.munoz@uandresbello.edu", "rut": "19.876.543-0" },
+  { "espacioId": 22, "dia": 0, "bloque": "18:00-19:00", "nombreSolicitante": "Valentina Soto", "correo": "v.soto@uandresbello.edu", "rut": "21.345.678-4" },
+  { "espacioId": 20, "dia": 1, "bloque": "16:00-17:00", "nombreSolicitante": "Valentina Soto", "correo": "v.soto@uandresbello.edu", "rut": "21.345.678-4" },
+  { "espacioId": 16, "dia": 0, "bloque": "11:00-12:00", "nombreSolicitante": "Matías Pérez", "correo": "m.perez@uandresbello.edu", "rut": "18.765.432-7" },
+  { "espacioId": 23, "dia": 1, "bloque": "17:00-18:00", "nombreSolicitante": "Matías Pérez", "correo": "m.perez@uandresbello.edu", "rut": "18.765.432-7" }
+]
