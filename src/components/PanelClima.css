@@ -1,0 +1,25 @@
+.panel-clima {
+  background: #fff;
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio);
+  padding: 1rem;
+}
+
+.panel-clima__titulo {
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+}
+
+.panel-clima__resumen {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.panel-clima__resumen .icono-clima {
+  font-size: 2rem;
+}
+
+.panel-clima__descripcion {
+  font-weight: 600;
+}
