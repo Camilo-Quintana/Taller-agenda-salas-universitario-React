@@ -1,0 +1,140 @@
+/* =====================================================
+   ESTILOS GENERALES
+===================================================== */
+
+/* ESTRUCTURA DE LA PÁGINA */
+body {
+  background-color: var(--color-fondo);
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-contenido {
+  flex: 1;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.titulo-pagina {
+  color: var(--color-primario);
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+/* BOOTSTRAP CON NUESTROS COLORES (con sus variables, sin !important) */
+.btn-primary {
+  --bs-btn-bg: var(--color-primario);
+  --bs-btn-border-color: var(--color-primario);
+  --bs-btn-hover-bg: var(--color-primario-oscuro);
+  --bs-btn-hover-border-color: var(--color-primario-oscuro);
+  --bs-btn-active-bg: var(--color-primario-oscuro);
+  --bs-btn-active-border-color: var(--color-primario-oscuro);
+  --bs-btn-disabled-bg: var(--color-primario);
+  --bs-btn-disabled-border-color: var(--color-primario);
+  --bs-btn-focus-shadow-rgb: 122, 17, 40;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: var(--color-primario);
+  --bs-btn-border-color: var(--color-primario);
+  --bs-btn-hover-bg: var(--color-primario);
+  --bs-btn-hover-border-color: var(--color-primario);
+  --bs-btn-active-bg: var(--color-primario);
+  --bs-btn-active-border-color: var(--color-primario);
+  --bs-btn-focus-shadow-rgb: 122, 17, 40;
+}
+
+.btn-link {
+  --bs-btn-color: var(--color-primario);
+  --bs-btn-hover-color: var(--color-primario-oscuro);
+  --bs-btn-active-color: var(--color-primario-oscuro);
+}
+
+.pagination {
+  --bs-pagination-color: var(--color-primario);
+  --bs-pagination-hover-color: var(--color-primario-oscuro);
+  --bs-pagination-focus-color: var(--color-primario-oscuro);
+  --bs-pagination-active-bg: var(--color-primario);
+  --bs-pagination-active-border-color: var(--color-primario);
+  --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(122, 17, 40, 0.2);
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--color-primario-claro);
+  box-shadow: 0 0 0 0.25rem rgba(122, 17, 40, 0.15);
+}
+
+/* PIEZAS QUE SE REPITEN */
+.panel-blanco {
+  background: #fff;
+  border-radius: var(--radio);
+  padding: 1.25rem;
+  box-shadow: var(--sombra-suave);
+}
+
+.lista-etiquetas {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.lista-etiquetas li {
+  background: #eef0f3;
+  color: #495057;
+  border-radius: 999px;
+  padding: 0.15rem 0.6rem;
+  font-size: 0.78rem;
+}
+
+.mensaje-vacio {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.mensaje-vacio__icono {
+  font-size: 2.5rem;
+  color: var(--color-texto-muted);
+}
+
+.alerta {
+  margin: 0.75rem 0;
+}
+
+.alerta__icono {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.atribucion-clima {
+  font-size: 0.75rem;
+  color: var(--color-texto-muted);
+  margin: 0.5rem 0 0;
+}
+
+.atribucion-clima a {
+  color: inherit;
+}
+
+/* PIE DE PÁGINA */
+.footer-unab {
+  background: var(--color-primario-oscuro);
+  color: #fff;
+  padding: 1.25rem 0;
+  font-size: 0.9rem;
+}
+
+.footer-unab a {
+  color: var(--color-acento-claro);
+}
+
+.footer-unab a:hover {
+  color: #fff;
+}

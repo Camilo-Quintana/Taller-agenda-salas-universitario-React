@@ -1,0 +1,59 @@
+.ventana__fondo {
+  position: fixed;
+  inset: 0;
+  background: rgba(20, 6, 10, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  z-index: 1050;
+}
+
+.ventana {
+  background: #fff;
+  border-radius: var(--radio);
+  width: 100%;
+  max-width: 480px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  animation: ventana-aparecer 0.18s ease-out;
+}
+
+.ventana__cabecera {
+  background: var(--color-primario);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.9rem 1.1rem;
+}
+
+.ventana__cuerpo {
+  padding: 1.1rem;
+}
+
+.ventana__pie {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.9rem 1.1rem;
+  border-top: 1px solid var(--color-borde);
+}
+
+@keyframes ventana-aparecer {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ventana {
+    animation: none;
+  }
+}

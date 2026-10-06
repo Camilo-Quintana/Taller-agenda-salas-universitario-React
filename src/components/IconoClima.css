@@ -1,0 +1,15 @@
+.icono-clima {
+  color: var(--color-texto-muted);
+}
+
+.icono-clima--despejado,
+.icono-clima--parcial {
+  color: var(--color-acento);
+}
+
+.icono-clima--llovizna,
+.icono-clima--lluvia,
+.icono-clima--chubascos,
+.icono-clima--tormenta {
+  color: #2563eb;
+}

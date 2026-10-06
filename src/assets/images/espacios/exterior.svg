@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Ilustración de un espacio exterior del campus">
+  <defs>
+    <linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7e7c4"/>
+      <stop offset="1" stop-color="#fdf6e8"/>
+    </linearGradient>
+  </defs>
+  <!-- cielo y sol -->
+  <rect width="600" height="400" fill="url(#cielo)"/>
+  <circle cx="488" cy="88" r="62" fill="#d4a72c" opacity="0.18"/>
+  <circle cx="488" cy="88" r="40" fill="#d4a72c"/>
+  <!-- mar de Viña del Mar -->
+  <rect y="214" width="600" height="40" fill="#8fbcd4"/>
+  <path d="M0 230 q25 -7 50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.6"/>
+  <!-- edificio del campus -->
+  <rect x="44" y="104" width="196" height="150" fill="#7a1128"/>
+  <rect x="34" y="92" width="216" height="16" fill="#4d0a19"/>
+  <g fill="#f4e6c1">
+    <rect x="66" y="126" width="34" height="28"/>
+    <rect x="125" y="126" width="34" height="28"/>
+    <rect x="184" y="126" width="34" height="28"/>
+    <rect x="66" y="172" width="34" height="28"/>
+    <rect x="125" y="172" width="34" height="28"/>
+    <rect x="184" y="172" width="34" height="28"/>
+  </g>
+  <rect x="122" y="214" width="40" height="40" fill="#4d0a19"/>
+  <!-- suelo del patio -->
+  <rect y="254" width="600" height="146" fill="#ddd6c6"/>
+  <g stroke="#cdc5b3" stroke-width="2">
+    <line x1="0" y1="300" x2="600" y2="300"/>
+    <line x1="0" y1="352" x2="600" y2="352"/>
+    <line x1="150" y1="254" x2="110" y2="400"/>
+    <line x1="300" y1="254" x2="300" y2="400"/>
+    <line x1="450" y1="254" x2="490" y2="400"/>
+  </g>
+  <!-- árbol -->
+  <rect x="452" y="196" width="14" height="80" fill="#6b4e2e"/>
+  <circle cx="459" cy="186" r="42" fill="#4f7a45"/>
+  <circle cx="428" cy="208" r="27" fill="#5b8a50"/>
+  <circle cx="490" cy="210" r="27" fill="#5b8a50"/>
+  <!-- quitasol y mesa -->
+  <rect x="139" y="290" width="6" height="66" fill="#4d0a19"/>
+  <path d="M80 296 Q142 244 204 296 Z" fill="#d4a72c"/>
+  <rect x="112" y="330" width="60" height="8" rx="3" fill="#4d0a19"/>
+  <!-- banca -->
+  <rect x="290" y="300" width="128" height="12" rx="3" fill="#4d0a19"/>
+  <rect x="290" y="282" width="128" height="9" rx="3" fill="#4d0a19"/>
+  <rect x="300" y="312" width="8" height="28" fill="#4d0a19"/>
+  <rect x="400" y="312" width="8" height="28" fill="#4d0a19"/>
+</svg>

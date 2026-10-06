@@ -1,0 +1,28 @@
+[
+  { "id": 1, "nombre": "Sala 101", "tipo": "Clases", "piso": 1, "edificio": "A", "capacidad": 2, "caracteristicas": ["Pizarra"] },
+  { "id": 2, "nombre": "Sala 102", "tipo": "Clases", "piso": 1, "edificio": "A", "capacidad": 3, "caracteristicas": ["Pizarra", "Proyector"] },
+  { "id": 3, "nombre": "Sala 103", "tipo": "Clases", "piso": 1, "edificio": "A", "capacidad": 5, "caracteristicas": ["Proyector", "WiFi"] },
+  { "id": 11, "nombre": "Laboratorio Informático 1", "tipo": "Laboratorio", "piso": 1, "edificio": "A", "capacidad": 40, "caracteristicas": ["Computadoras", "Proyector", "WiFi"] },
+  { "id": 13, "nombre": "Laboratorio de Física", "tipo": "Laboratorio", "categoria": "cientifico", "piso": 1, "edificio": "A", "capacidad": 25, "caracteristicas": ["Equipos de medición", "Pizarra"] },
+  { "id": 16, "nombre": "Sala de Reunión 1", "tipo": "Reunión", "piso": 1, "edificio": "A", "capacidad": 4, "caracteristicas": ["Mesa redonda", "WiFi"] },
+  { "id": 17, "nombre": "Sala de Reunión 2", "tipo": "Reunión", "piso": 1, "edificio": "A", "capacidad": 8, "caracteristicas": ["Mesa conferencia", "Pantalla"] },
+  { "id": 20, "nombre": "Sala de Estudio 301", "tipo": "Estudio", "piso": 3, "edificio": "A", "capacidad": 6, "caracteristicas": ["Pizarra", "WiFi", "Silencio"] },
+  { "id": 22, "nombre": "Patio Central", "tipo": "Exterior", "piso": 1, "edificio": "A", "capacidad": 40, "caracteristicas": ["Bancas", "Enchufes", "Sombra parcial"] },
+
+  { "id": 4, "nombre": "Sala 104", "tipo": "Clases", "piso": 1, "edificio": "B", "capacidad": 6, "caracteristicas": ["Proyector", "Pizarra"] },
+  { "id": 5, "nombre": "Sala 105", "tipo": "Clases", "piso": 1, "edificio": "B", "capacidad": 8, "caracteristicas": ["Proyector", "Pizarra", "WiFi"] },
+  { "id": 6, "nombre": "Sala 201", "tipo": "Clases", "piso": 2, "edificio": "B", "capacidad": 14, "caracteristicas": ["Proyector", "Computadoras"] },
+  { "id": 7, "nombre": "Sala 202", "tipo": "Clases", "piso": 2, "edificio": "B", "capacidad": 15, "caracteristicas": ["Proyector", "Pizarra", "WiFi"] },
+  { "id": 12, "nombre": "Laboratorio Informático 2", "tipo": "Laboratorio", "piso": 2, "edificio": "B", "capacidad": 35, "caracteristicas": ["Computadoras", "Servidor", "WiFi"] },
+  { "id": 14, "nombre": "Laboratorio de Química", "tipo": "Laboratorio", "categoria": "cientifico", "piso": 2, "edificio": "B", "capacidad": 20, "caracteristicas": ["Campana de extracción", "Equipos de seguridad"] },
+  { "id": 18, "nombre": "Sala de Reunión 3", "tipo": "Reunión", "piso": 2, "edificio": "B", "capacidad": 15, "caracteristicas": ["Pantalla", "Videoconferencia"] },
+  { "id": 21, "nombre": "Sala de Estudio 302", "tipo": "Estudio", "piso": 3, "edificio": "B", "capacidad": 10, "caracteristicas": ["Enchufes", "WiFi", "Pantalla"] },
+  { "id": 24, "nombre": "Cancha Multiuso", "tipo": "Exterior", "piso": 1, "edificio": "B", "capacidad": 30, "caracteristicas": ["Iluminación", "Graderías"] },
+
+  { "id": 8, "nombre": "Sala 203", "tipo": "Clases", "piso": 2, "edificio": "C", "capacidad": 16, "caracteristicas": ["Proyector", "Aire acondicionado"] },
+  { "id": 9, "nombre": "Sala 204", "tipo": "Clases", "piso": 2, "edificio": "C", "capacidad": 29, "caracteristicas": ["Proyector", "Pizarra", "Computadoras"] },
+  { "id": 10, "nombre": "Sala 205", "tipo": "Clases", "piso": 2, "edificio": "C", "capacidad": 30, "caracteristicas": ["Proyector", "Pizarra", "Computadoras", "Aire acondicionado"] },
+  { "id": 15, "nombre": "Laboratorio de Biología", "tipo": "Laboratorio", "categoria": "cientifico", "piso": 1, "edificio": "C", "capacidad": 22, "caracteristicas": ["Microscopios", "Freezer"] },
+  { "id": 19, "nombre": "Sala de Reunión 4", "tipo": "Reunión", "piso": 2, "edificio": "C", "capacidad": 20, "caracteristicas": ["Pantalla dual", "Videoconferencia", "Grabación"] },
+  { "id": 23, "nombre": "Terraza Vista al Mar", "tipo": "Exterior", "piso": 3, "edificio": "C", "capacidad": 25, "caracteristicas": ["Mesas", "WiFi", "Vista al mar"] }
+]

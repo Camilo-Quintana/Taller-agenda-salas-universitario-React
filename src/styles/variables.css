@@ -1,0 +1,32 @@
+/* =====================================================
+   COLORES Y MEDIDAS DE RESERVAUNAB (los mismos de la v1)
+===================================================== */
+:root {
+  --color-primario: #7a1128;
+  --color-primario-oscuro: #4d0a19;
+  --color-primario-claro: #9c2c44;
+  --color-acento: #d4a72c;
+  --color-acento-claro: #f4e6c1;
+  --color-texto: #2b2b2b;
+  --color-texto-muted: #6c757d;
+  --color-borde: #e3e3e6;
+  --color-fondo: #f5f5f7;
+  --color-exito: #1e8e5a;
+  --color-exito-claro: #dcfce7;
+  --color-ocupado: #9ca3af;
+
+  --fuente-base: "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+  --radio: 12px;
+  --sombra-suave: 0 2px 10px rgba(0, 0, 0, 0.08);
+
+  /* variables de Bootstrap, para que use nuestros colores */
+  --bs-primary: #7a1128;
+  --bs-primary-rgb: 122, 17, 40;
+  --bs-link-color: #7a1128;
+  --bs-link-color-rgb: 122, 17, 40;
+  --bs-link-hover-color: #4d0a19;
+  --bs-link-hover-color-rgb: 77, 10, 25;
+  --bs-body-font-family: var(--fuente-base);
+  --bs-body-color: var(--color-texto);
+  /* --bs-body-bg no se cambia: Bootstrap la usa también en tarjetas e inputs, que deben ser blancos */
+}

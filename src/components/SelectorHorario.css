@@ -1,0 +1,62 @@
+.selector-horario {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(92px, 1fr));
+  gap: 0.5rem;
+}
+
+.selector-horario__bloque {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+  padding: 0.5rem 0.25rem;
+  border-radius: 8px;
+  border: 1px solid var(--color-primario);
+  background: #fff;
+  color: var(--color-texto);
+  font-size: 0.85rem;
+  line-height: 1.2;
+  /* el fondo y el texto cambian juntos */
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+/* hover solo en horarios libres que no están elegidos (el elegido se queda maroon) */
+.selector-horario__bloque:hover:not(:disabled):not(.elegido) {
+  background: var(--color-acento-claro);
+}
+
+.selector-horario__bloque:focus-visible {
+  outline: 3px solid var(--color-acento);
+  outline-offset: 2px;
+}
+
+.selector-horario__bloque.elegido {
+  background: var(--color-primario);
+  color: #fff;
+}
+
+.selector-horario__bloque.elegido .icono-clima {
+  color: #fff;
+}
+
+.selector-horario__bloque.ocupado {
+  background: var(--color-ocupado);
+  border-color: var(--color-ocupado);
+  color: #fff;
+  cursor: not-allowed;
+}
+
+.selector-horario__bloque.pasado {
+  background: #f1f1f3;
+  border-color: #e5e5e8;
+  color: #8a8a91;
+  cursor: not-allowed;
+}
+
+.selector-horario__hora {
+  font-weight: 700;
+}
+
+.selector-horario__detalle {
+  font-size: 0.78rem;
+}
