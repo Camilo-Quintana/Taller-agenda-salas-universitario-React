@@ -1,0 +1,19 @@
+.detalle__imagen {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: var(--radio);
+  box-shadow: var(--sombra-suave);
+}
+
+.detalle__paso {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 1.25rem 0 0.6rem;
+}
+
+.detalle__confirmar {
+  background: var(--color-fondo);
+  border-radius: 10px;
+  padding: 1rem;
+}
