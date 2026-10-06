@@ -1,0 +1,33 @@
+.reserva-card {
+  border: none;
+  border-radius: var(--radio);
+  box-shadow: var(--sombra-suave);
+}
+
+.reserva-card.finalizada {
+  opacity: 0.75;
+}
+
+.reserva-card__titulo {
+  color: var(--color-primario);
+  font-weight: 700;
+}
+
+.reserva-card__estado {
+  font-weight: 600;
+}
+
+.reserva-card__estado.proxima {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.reserva-card__estado.en-curso {
+  background: var(--color-exito-claro);
+  color: var(--color-exito);
+}
+
+.reserva-card__estado.finalizada {
+  background: #e5e7eb;
+  color: #4b5563;
+}
